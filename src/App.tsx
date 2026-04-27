@@ -57,7 +57,7 @@ export default function App() {
               <span className="text-[10px] uppercase font-bold tracking-[0.2em] text-white/70">Zeth Algorithm v4.2 Ready</span>
             </div>
             
-            <h1 className="text-6xl md:text-8xl font-black italic uppercase italic tracking-tighter leading-[0.85] mb-8">
+            <h1 className="text-6xl md:text-8xl font-black uppercase italic tracking-tighter leading-[0.85] mb-8">
               Prediksi. <br />
               <span className="text-transparent border-t-4 border-b-4 border-yellow-400/50 bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">Cuan.</span> <br />
               Ulangi.
@@ -121,7 +121,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
             <div className="max-w-2xl">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6 italic italic uppercase">Kuasai Permainan</h2>
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 uppercase italic">Kuasai Permainan</h2>
               <p className="text-white/50 leading-relaxed">
                 Algoritma eksklusif kami menganalisis puluhan ribu titik data untuk mengidentifikasi pola yang terlewatkan oleh orang lain. Baik itu slot dengan volatilitas tinggi atau lotere yang kompleks, Zeth memberi Anda keunggulan.
               </p>
@@ -159,7 +159,7 @@ export default function App() {
         <div className="max-w-5xl mx-auto bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-[2.5rem] p-12 md:p-24 text-center relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-full opacity-10 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] pointer-events-none" />
           
-          <h2 className="text-4xl md:text-6xl text-black font-black uppercase italic italic leading-none mb-8 relative z-10">
+          <h2 className="text-4xl md:text-6xl text-black font-black uppercase italic leading-none mb-8 relative z-10">
             Berhenti Hanya <br /> Mengandalkan Keberuntungan.
           </h2>
           <p className="text-black/70 text-lg mb-12 max-w-xl mx-auto relative z-10">
@@ -233,7 +233,7 @@ function FeatureCard({ icon, title, description, tag }: { icon: React.ReactNode,
         {icon}
       </div>
       <h3 className="text-xl font-bold mb-4">{title}</h3>
-      <p className="text-white/40 text-sm leading-relaxed mb-6 italic italic group-hover:text-white/60 transition-colors">
+      <p className="text-white/40 text-sm leading-relaxed mb-6 italic group-hover:text-white/60 transition-colors">
         {description}
       </p>
       <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-white/20 group-hover:text-yellow-400 transition-colors">

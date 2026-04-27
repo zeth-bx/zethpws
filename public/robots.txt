@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zeth.id/sitemap.xml
+Sitemap: https://zethpws.pages.dev/sitemap.xml
